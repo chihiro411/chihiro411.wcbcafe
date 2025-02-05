@@ -89,6 +89,10 @@ img {
 }
 #home .page-title{
     text-transform: none;
+    color: #000;
+}
+.page-title p {
+    color: #000;
 }
 
 /*NEWS*/
