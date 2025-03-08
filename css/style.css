@@ -349,10 +349,10 @@ iframe {
     /*header*/
     .main-nav {
         font-size: 1rem;
-        margin:10px 50 0 10px;
+        margin-left:50px;
     }
     .main-nav li {
-        margin: 0 10px 0 50px;
+        margin-right:50px;
     }
     /*home*/
     .home-content {
