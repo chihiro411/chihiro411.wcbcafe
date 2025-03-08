@@ -42,11 +42,11 @@ img {
 .page-header {
     display: flex;
     justify-content: space-between;
-    background-color: rgba(255,255,255,.5);
+    background-color: rgba(255, 255, 255,.5); 
 }
-.wrapper {
+.wrapper{
     max-width: 1100px;
-    margin: 0 auto;
+    margin:0 auto;
     padding: 0 4%;
 }
 
@@ -95,11 +95,12 @@ img {
     color: #251c12;
     text-shadow: 0px 0px 5px #fff;
 }
+
 .page-title p {
     color: #432;
 }
 
-/*NEWS*/
+/*NEWS-head*/
 #news {
     background-image: url(../images/news.jpg);
     height: 270px;
@@ -130,6 +131,7 @@ aside {
     width: 22%;
 }
 
+/*NEWS-body*/
 .news-contents {
     display: flex;
     justify-content: space-between;
@@ -169,6 +171,7 @@ aside {
 .post-cat {
     margin-left: 120px;
 }
+
 article img {
     margin-bottom: 20px;
 }
@@ -177,6 +180,7 @@ article p {
     margin-right: 2rem;
 }
 
+/*サイドバー部分*/
 .sub-title {
     font-size: 1.375rem;
     padding: 0 8px 8px;
@@ -232,7 +236,7 @@ aside {
     font-size: 1.125rem;
     margin: 10px 0 0;
     padding:10px 20px 10px 20px;
-    background-color: rgba(255,255,255,.5);
+    background-color: rgba(255, 255, 255,.5); 
 }
 
 .grid {
@@ -260,7 +264,7 @@ aside {
 }
 #contact .page-title{
     text-shadow: 0px 0px 5px #432;
-    
+}
 /*form*/
 form div {
     margin-bottom: 14px;
@@ -366,8 +370,7 @@ iframe {
     aside {
         width: 100%;
     }
-    #news 
-    .page-title {
+    #news .page-title {
         margin-top: 30px;
     }
     aside {
@@ -399,7 +402,7 @@ iframe {
     .ad {
         display: none;
     }
-    
+
     /*MENU*/
     .menu-content {
         margin-top: 20%;
